@@ -52,9 +52,9 @@ FFT-Design/
 
 ### 🏗️ FFT 구조
 
-![alt text](img/block_diagram1.png)
-
-![alt text](img/block_diagram.png)
+| **Butterfly Algorithm** | **FFT Block Diagram** |
+| :-----------: | :-----------: |
+| ![Butterfly Algorithm](img/bf_algorithm.png) | ![FFT Block Diagram](img/fft_block_diagram.png) |
 
 ---
 
