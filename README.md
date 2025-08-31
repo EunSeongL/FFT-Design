@@ -68,7 +68,7 @@ fft_fixed
 
 ### BFP vs CBFP
 | 구분 | BFP (Block Floating Point) | CBFP (Convergent Block Floating Point) |
-| :---: |:---:|:---:|
+| :---: | :---: | :---: |
 | **방식** | 블록 내 최대값 기준으로 shift 수행 | 여러 조건(real/imag, max/min 등) 고려해 지수 결정 |
 | **블록 처리** | 전체 블록 단위 | 세분화된 블록 단위 (N/4, N/8, N/16 …) |
 | **정밀도** | 큰 값에 의해 작은 값이 underflow → 손실 가능 | 블록마다 다른 지수 사용 가능 → underflow 감소 |
