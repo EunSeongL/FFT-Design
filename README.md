@@ -119,9 +119,13 @@ FFT-Design/
  
 ---
 
-🔎 **Gate Level 검증 (Synopsys 시뮬레이션)**
-- 합성 도구 (예: Synopsys Design Compiler) 사용  
-- 면적(area), 타이밍(timing), 파워 및 클록 제약 등 분석 
+🔎 **Gate Level 검증 (Synopsys 시뮬레이션)** 
+1. Synopsys Design Compiler를 통해 NetList생성
+2. Synopsys Verdi를 통해 Gate Level FFT 동작 확인
+3. 면적(area), 타이밍(timing) 분석
+4. MATLAB 버터플라이 단계별 결과와 비교
+→ 실제 하드웨어 구현과 일치하는지 검증
+
 
 ---
 
