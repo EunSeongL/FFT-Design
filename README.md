@@ -55,12 +55,10 @@ FFT-Design/
 📂 [참고문헌](./Docs) <br>
 📂 [MATLAB 알고리즘 검증 코드](./Software)
 
-cos_in_gen
-→  FFT 입력 신호로 사용할 코사인 함수의 
-     복소수 벡터 및 고정소수점으로 양자화된 벡터 생성
-ran_in_gen
-→  FFT 입력 신호로 사용할 랜덤 함수의 
-     복소수 벡터 및 고정소수점으로 양자화된 벡터 생성
+### 입력 Vertor 생성
+| cos_in_gen | ran_in_gen |
+| :---: | :---: |
+| 코사인 함수의 복소수 벡터 및 고정소수점으로 양자화된 벡터 | 랜덤 함수의 복소수 벡터 및 고정소수점으로 양자화된 벡터 |
 
 ### Floating Point vs Fixed Point
 | fft_float | fft_fixed |
