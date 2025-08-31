@@ -129,10 +129,10 @@ FFT-Design/
 ---
 
 🔎 **FPGA 검증 (Vivado 시뮬레이션)**
-1. 설계한 RTL을 기반으로 Vivado Tool에서의 시뮬레이션 수행
-2. 실제 FPGA 환경 조건(타이밍) 반영
-3. MATLAB에서 계산한 버터플라이 단계별 결과와 비교
-→ FPGA 구현 결과가 설계 의도와 일치하는지 검증
+1. Vivado 시뮬레이션으로 FPGA에서의 RTL 동작 확인
+2. MATLAB 버터플라이 단계별 값과 비교하여 정확성 검증
+3. RTL 합성 후 BitStream 생성
+→ BitStream을 통해 FPGA 자원 사용(LUT)과 타이밍 slack을 확인하여 하드웨어 구현 가능성을 검증
 
 ---
 
