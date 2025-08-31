@@ -115,7 +115,7 @@ FFT-Design/
 1. Synopsys Verdi를 통해 RTL Level FFT 동작 확인
 2. MATLAB에서 각 버터플라이 단계별 출력 값 추출
 3. RTL 시뮬레이션 결과와 MATLAB 값 비교
-→ 각 단계별 일치 여부를 확인하여 모듈의 정확성 검증
+각 단계별 일치 여부를 확인하여 모듈의 정확성 검증
  
 ---
 
@@ -124,7 +124,7 @@ FFT-Design/
 2. Synopsys Verdi를 통해 Gate Level FFT 동작 확인
 3. 면적(area), 타이밍(timing) 분석
 4. MATLAB 버터플라이 단계별 결과와 비교
-→ 실제 하드웨어 구현과 일치하는지 검증
+실제 하드웨어 구현과 일치하는지 검증
 
 ---
 
@@ -132,7 +132,7 @@ FFT-Design/
 1. Vivado 시뮬레이션으로 FPGA에서의 RTL 동작 확인
 2. MATLAB 버터플라이 단계별 값과 비교하여 정확성 검증
 3. RTL 합성 후 BitStream 생성
-→ BitStream을 통해 FPGA 자원 사용(LUT)과 타이밍 slack을 확인하여 하드웨어 구현 가능성을 검증
+BitStream을 통해 FPGA 자원 사용(LUT)과 타이밍 slack을 확인하여 하드웨어 구현 가능성을 검증
 
 ---
 
