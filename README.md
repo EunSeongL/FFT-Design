@@ -61,10 +61,10 @@ cos_in_gen
 ran_in_gen
 →  FFT 입력 신호로 사용할 랜덤 함수의 
      복소수 벡터 및 고정소수점으로 양자화된 벡터 생성
-fft_float
-→  입력 신호를 받아 512-floating point FFT를 계산하는 함수
-fft_fixed
-→  입력 신호를 받아 512-fixed point FFT를 계산하는 함수
+
+| fft_float | fft_fixed |
+| :-----: | :-----: |
+| 범위가 넓고 소수점 이동 가능, 정밀도 높음 | 정해진 비트로 표현, 연산 빠르고 하드웨어 효율적이지만 오버플로우/정밀도 제한 있음 |
 
 ### BFP vs CBFP
 | 구분 | BFP (Block Floating Point) | CBFP (Convergent Block Floating Point) |
