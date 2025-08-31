@@ -52,12 +52,37 @@ FFT-Design/
 
 ### 🏗️ FFT 구조
 
+![alt text](img/block_diagram1.png)
+
+![alt text](img/block_diagram.png)
+
 ---
 
 ### 🔎 알고리즘 검증
 
 📂 [참고문헌](./Docs) <br>
 📂 [MATLAB 알고리즘 검증 코드](./Software)
+
+### ➕➖✖️➗ BIT 계산
+| module0                     | module1                          | module2                          |
+|-----------------------------|----------------------------------|----------------------------------|
+| <3.6> din (9bits)           | bfly02 (11 bits)                 | bfly12 (12 bits)                 |
+| ↓ (bfly00)                  | ↓ (bfly)                         | ↓ (bfly)                         |
+| <4.6> (10bits)              | bfly10 (12 bits)                 | bfly20 (13 bits)                 |
+| ↓ (bfly01)                  | ↓ (bfly)                         | ↓ (bfly)                         |
+| <5.6> * <2.8> (TW)           | bfly11 (13 bits) * TW<2.8>       | bfly21 (14 bits) * TW<2.8>       |
+| ↓                           | ↓                                | ↓                                |
+| <7.14> (21bits)             | 23bits                           | 24bits                           |
+| ↓ (/256 = <<2^8)             | ↓ (/256 = <<2^8)                  | ↓ (/256 = <<2^8)                  |
+| <7.6> (13bits)              | bfly11 (15bits)                  | bfly21 (16bits)                  |
+| ↓ (bfly02)                  | ↓ (bfly)                         | ↓ (bfly)                         |
+| <8.6> (14bits)              | bfly12 (16bits) * TW<2.7>        | bfly22 (17bits)                  |
+| ↓ (sat)                     | ↓                                | ↓ (sat)                          |
+| <7.6> × TW<2.7>             | bfly12 (25bits)                  | bfly22 (16bits)                  |
+| ↓                           | ↓ (CBFP)                         | ↓ (CBFP)                         |
+| <9.13>                      | bfly12 (12 bits)                 | <9.4> bfly22 (13 bits)           |
+| ↓ (CBFP)                    |                                  |                                  |
+| bfly02 (11 bits)            |                                  |                                  |
 
 ---
 
