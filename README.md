@@ -50,14 +50,6 @@ FFT-Design/
 
 ---
 
-### 🏗️ FFT 구조
-
-| **Algorithm Diagram** | **FFT Block Diagram** |
-| :-----------: | :-----------: |
-| ![Butterfly Algorithm](img/bf_algorithm.png) | ![FFT Block Diagram](img/fft_block_diagram.png) |
-
----
-
 ### 🔎 알고리즘 검증
 
 📂 [참고문헌](./Docs) <br>
@@ -83,6 +75,14 @@ FFT-Design/
 | <9.13>                      | bfly12 (12 bits)                 | <9.4> bfly22 (13 bits)           |
 | ↓ (CBFP)                    |                                  |                                  |
 | bfly02 (11 bits)            |                                  |                                  |
+
+---
+
+### 🏗️ FFT 구조
+
+| **Algorithm Diagram** | **FFT Block Diagram** |
+| :-----------: | :-----------: |
+| ![Butterfly Algorithm](img/bf_algorithm.png) | ![FFT Block Diagram](img/fft_block_diagram.png) |
 
 ---
 
