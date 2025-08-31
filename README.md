@@ -41,8 +41,9 @@ FFT-Design/
 ├── software/        # 알고리즘 검증
 ├── hardware/   
 │    ├── rtl/        # SystemVerilog 설계 소스
-│    ├── sim/        # 시뮬레이션 스크립트
+│    ├── sim/        # RTL Level 합성
 │    ├── syn/        # 합성 스크립트 및 리포트
+│    ├── verilog/    # Gate Level 합성
 │    └── testbench/  # 시뮬레이션 테스트벤치
 └── README.md
 ```
@@ -94,6 +95,7 @@ Code 최적화
 
 
 ---
+
 
 
 
