@@ -112,10 +112,11 @@ FFT-Design/
 ### 🔎 검증 및 시뮬레이션
 
 🔎 **RTL Level 검증 (Synopsys 시뮬레이션)**
-
-- 주요 모듈: Butterfly 단위 연산, 파이프라인 레지스터, Twiddle ROM, 제어 로직, BFP/CBFP 모듈 등  
-- 데이터 흐름, 제어 신호, 모듈 인터페이스 및 역할 설명  
-
+1. Synopsys Verdi를 통해 RTL Level FFT 동작 확인
+2. MATLAB에서 각 버터플라이 단계별 출력 값 추출
+3. RTL 시뮬레이션 결과와 MATLAB 값 비교
+→ 각 단계별 일치 여부를 확인하여 모듈의 정확성 검증
+ 
 ---
 
 🔎 **Gate Level 검증 (Synopsys 시뮬레이션)**
