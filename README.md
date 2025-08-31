@@ -112,9 +112,29 @@ FFT-Design/
 ### 🔎 검증 및 시뮬레이션
 
 🔎 **RTL Level 검증 (Synopsys 시뮬레이션)**
-1. Synopsys Verdi를 통해 RTL Level FFT 동작 확인
-2. MATLAB에서 각 버터플라이 단계별 출력 값 추출
-3. RTL 시뮬레이션 결과와 MATLAB 값 비교
+1. Synopsys Verdi를 통해 RTL Level FFT 동작 확인<br>
+![FFT Schematic](img/verdi_schematic.png)
+
+2. MATLAB에서 각 버터플라이 단계별 출력 값 추출<br>
+
+```matlab
+fp_cos_fft_output = fopen('cos_fft_output.txt','w');
+for nn=1:512
+    fprintf(fp_cos_fft_output, '%d %d\n',  real(bfly22(nn)), imag(bfly22(nn)));
+end
+fclose(fp_cos_fft_output);
+```
+
+3. RTL 시뮬레이션 결과와 MATLAB 값 비교<br>
+
+```bash
+diff cos_fft_output.txt fft_output.txt
+```
+| RTL Simulation | Text File |
+|:---:|:---:|
+| ![RTL Result](img/rtl_sim.png) | ![text](img/result_txt.png) |
+| ![RTL Result](img/rtl_sim1.png) | ![text](img/result_txt1.png) |
+
 
 => 각 단계별 일치 여부를 확인하여 모듈의 정확성 검증
  
