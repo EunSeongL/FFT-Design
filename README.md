@@ -1,6 +1,6 @@
 # 📌 512 Point Radix-2 FFT Filter Design
 
-### 🎯 프로젝트 개요
+## 🎯 프로젝트 개요
 전반적인 Front-End 과정을 진행했습니다.
 - MATLAB을 활용해 Radix-2 FFT의 Butterfly 구조를 이해
 - Floating-Point와 Fixed-Point 차이를 분석
@@ -10,7 +10,7 @@
 - Vivado를 활용해 FPGA 검증과 Bitstream생성
 ---
 
-### 🙋‍♂️ 역할 분담
+## 🙋‍♂️ 역할 분담
 
 #### 🐲윤종민
 - 역할
