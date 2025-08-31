@@ -59,12 +59,12 @@ FFT-Design/
 | :---: | :---: |
 | 코사인 함수의 복소수 벡터 및 고정소수점으로 양자화된 벡터 | 랜덤 함수의 복소수 벡터 및 고정소수점으로 양자화된 벡터 |
 
-**Floating Point vs Fixed Point**
+**🆚  Floating Point vs Fixed Point**
 | fft_float | fft_fixed |
 | :-----: | :-----: |
 | 범위가 넓고 소수점 이동 가능, 정밀도 높음 | 정해진 비트로 표현, 연산 빠르고 하드웨어 효율적이지만 오버플로우/정밀도 제한 있음 |
 
-**BFP vs CBFP**
+**🆚 BFP vs CBFP**
 | 구분 | BFP (Block Floating Point) | CBFP (Convergent Block Floating Point) |
 | :---: | :---: | :---: |
 | **방식** | 블록 내 최대값 기준으로 shift 수행 | 여러 조건(real/imag, max/min 등) 고려해 지수 결정 |
@@ -75,7 +75,7 @@ FFT-Design/
 | **적합한 경우** | 단순 구현, 하드웨어 복잡도 낮음 | 정밀도 중요, 다양한 신호(OFDM, Dirac 등) 입력 시 효과적 |
 
 
-**➕➖✖️➗ BIT 계산**
+**➕ BIT 계산**
 | module0                     | module1                          | module2                          |
 |-----------------------------|----------------------------------|----------------------------------|
 | <3.6> din (9bits)           | bfly02 (11 bits)                 | bfly12 (12 bits)                 |
