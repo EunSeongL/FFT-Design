@@ -7,7 +7,7 @@
 - BFP와 CBFP를 적용한 알고리즘을 분석
 - 소프트웨어 모델링을 기반으로 하드웨어 모듈을 설계
 - Synopsys EDA Tool을 이용해 RTL 및 Gate Level 검증.
-- Vivado를 활용해 FPGA 검증과 Bitstream생성
+- Vivado를 통한 Bitstream생성
 ---
 
 ### 🙋‍♂️ 역할 분담
