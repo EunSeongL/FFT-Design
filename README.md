@@ -26,7 +26,7 @@
 ### 💻 개발 환경
 
 | 구분        | 사용 도구 / 언어 |
-|------------|----------------|
+| :-----: | :-----: |
 | **EDA Tools** | Xilinx Vivado HLx Editions, Synopsys VCS, Synopsys Verdi |
 | **Languages** | SystemVerilog, MATLAB |
 | **IDE / Tools** | Visual Studio Code, MobaXterm |
