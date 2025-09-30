@@ -1,4 +1,4 @@
-# 📌 512 Point Radix-2 FFT Filter Design
+# 📌 512 Point Radix-2² FFT Design
 
 ### 🎯 프로젝트 개요
 전반적인 Front-End 과정을 진행했습니다.
@@ -171,6 +171,7 @@ Clock 줄이기
 Code 최적화
 ```
 ---
+
 
 
 
