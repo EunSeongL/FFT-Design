@@ -27,7 +27,7 @@
 
 | 구분        | 사용 도구 / 언어 |
 | :-----: | :-----: |
-| **EDA Tools** | Xilinx Vivado HLx Editions, Synopsys VCS, Synopsys Verdi |
+| **EDA Tools** | Xilinx Vivado HLx Editions, Synopsys VCS, Synopsys Verdi, Synopsys Design Compiler |
 | **Languages** | SystemVerilog, MATLAB |
 | **IDE / Tools** | Visual Studio Code, MobaXterm |
 
@@ -171,6 +171,7 @@ Clock 줄이기
 Code 최적화
 ```
 ---
+
 
 
 
