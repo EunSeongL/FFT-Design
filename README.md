@@ -91,7 +91,7 @@ FFT-Design/
 | <8.6> (14bits)              | bfly12 (16bits) * TW<2.7>        | bfly22 (17bits)                  |
 | ↓ (sat)                     | ↓                                | ↓ (sat)                          |
 | <7.6> × TW<2.7>             | bfly12 (25bits)                  | bfly22 (16bits)                  |
-| ↓                           | ↓ (CBFP)                         | ↓ (CBFP)                         |
+| ↓                           | ↓ (CBFP)                         | ↓ (CBFP index를 이용한 조정)      |
 | <9.13>                      | bfly12 (12 bits)                 | <9.4> bfly22 (13 bits)           |
 | ↓ (CBFP)                    |                                  |                                  |
 | bfly02 (11 bits)            |                                  |                                  |
@@ -171,6 +171,7 @@ Clock 줄이기
 Code 최적화
 ```
 ---
+
 
 
 
