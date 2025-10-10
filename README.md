@@ -13,13 +13,13 @@
 ### 🙋‍♂️ 역할 분담
 
 #### 🐲윤종민
-- Butterfly 설계 및 검증
+- Butterfly 설계 및 검증, Top Merge
 #### 🦖이현수
 - CBFP 설계 및 검증 
 #### 🐉이은성
-- Butterfly 설계 및 검증
+- Butterfly 설계 및 검증, Top Merge
 #### 🥊장환
-- Shift Register 설계 및 합성
+- Shift Register 설계 및 검증
 
 ---
 
@@ -171,6 +171,7 @@ Clock 줄이기
 Code 최적화
 ```
 ---
+
 
 
 
