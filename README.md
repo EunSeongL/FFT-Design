@@ -176,7 +176,7 @@ diff cos_fft_output.txt fft_output.txt
 |![bitstream](img/bitstream.png)|![Resource](img/resource.png)| 
 
 
-=> BitStream을 통해 FPGA 자원 사용(LUT)과 타이밍 slack을 확인하여 하드웨어 구현 가능성을 검증
+=> BitStream을 통해 FPGA Resource와 타이밍 slack을 확인하여 하드웨어 구현 가능성을 검증
 
 ---
 
